@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: sans-serif;
+}
+.popup{
+	display: flex;
+	height: 500px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	justify-content: center;
+	
+	}
+
+.popup h1 {
+	top: 200px;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+}
+.popup p {
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+}
+/* .popup:hover p{
+ 	              animation: appletext 1.5s normal;
+ }*/
+  .popup:hover h1 p {
+  	 animation: apple 1s normal;
+  }
+@keyframes appletext {
+	0%{
+		opacity: 0;
+		transform: translate(70px);
+	}
+	100%{
+		transform: translate(0px);
+		opacity: 1;
+	}
+	
+}
+@keyframes apple {
+	0%{
+		opacity: 0;
+	}
+	0%{
+		transform: translate(70px);
+	}
+	100%{
+		transform: translate(0px);
+	}
+	100%{
+		opacity: 1;
+	}
+
+}

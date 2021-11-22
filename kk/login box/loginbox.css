@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact_box {
+  height: 100vh;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_box .box_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+  width: 600px;
+}
+
+.contact_box .box_1 h1 {
+  font-size: 42px;
+  padding: auto;
+  margin: 10;
+  width: 20rem;
+}
+
+.contact_box .box_1 .text_field {
+  position: relative;
+  width: 20rem;
+  padding: .5rem;
+  margin: 2rem;
+}
+
+.contact_box .box_1 .text_field input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: .5rem;
+  outline: none;
+}
+
+.contact_box .box_1 .text_field input:hover {
+  border-color: cadetblue;
+}
+
+.contact_box .box_1 .text_field input:focus {
+  border-color: cyan;
+}
+
+.contact_box .box_1 .text_field label {
+  position: relative;
+  color: black;
+  top: .2rem;
+  left: 1rem;
+  padding: 0 0.5rem;
+  cursor: text;
+  -webkit-transition: top 200ms ease-in,left 200ms ease-in, font-size 200ms ease-in;
+  transition: top 200ms ease-in,left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+}
+
+.contact_box .box_1 .text_field input:focus ~ label {
+  top: -1rem;
+}
+
+.contact_box .box_1 .text_field input:valid ~ label {
+  top: -1rem;
+}
+
+.contact_box .box_1 form .button {
+  position: relative;
+  height: 2rem;
+  width: 7rem;
+  font-size: 13px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: .5rem;
+  right: -2rem;
+  margin: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contact_box .box_1 form .button:focus {
+  -webkit-transform: translatey(10px);
+          transform: translatey(10px);
+}
+
+.contact_box .box_1 form .message {
+  position: relative;
+  width: 20rem;
+  height: 10vw;
+  padding: .5rem;
+  margin: 2rem;
+}
+
+.contact_box .box_1 form .message textarea {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.2rem;
+  margin: 0.3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: .5rem;
+  outline: none;
+}
+
+.contact_box .box_1 form .message textarea:hover {
+  border-color: cadetblue;
+}
+
+.contact_box .box_1 form .message textarea:focus {
+  border-color: cyan;
+}
+
+.contact_box .box_1 form .message textarea:focus ~ label {
+  top: -.8rem;
+}
+
+.contact_box .box_1 form .message textarea:valid ~ label {
+  top: -1rem;
+}
+
+.contact_box .box_1 form .message label {
+  position: relative;
+  color: black;
+  top: .9rem;
+  left: 1rem;
+  padding: 0 0.5rem;
+  cursor: text;
+  -webkit-transition: top 200ms ease-in,left 200ms ease-in, font-size 200ms ease-in;
+  transition: top 200ms ease-in,left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+  z-index: 1;
+}
+/*# sourceMappingURL=loginbox.css.map */

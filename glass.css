@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(kk/53931.jpg);
+	box-sizing: border-box;
+	height: 100vh;
+	width: auto;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+}
+.glass{
+	width: 500px;
+	height: 400px;
+    background: linear-gradient(135deg, rgba(225,225,225,0.1));
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(225, 225, 225, .1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .37);
+    position: relative;
+}
+.glass img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 10px;
+	object-fit: fill;
+	position: relative;
+	float: left;
+	shape-outside: circle(50%);
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+}
+.glass h1{
+	font-size: 35px;
+	margin: 15px 10px 20px 95px;
+     color: transparent;
+     -webkit-text-stroke: .5px black;
+  /*   text-shadow: 0px 0px 25px rgba(0, 0, 0, .5);*/
+}
+.glass p{
+	margin: 2rem;
+	text-align: justify;
+	color: rgba(0, 0, 0, 1.0);
+	-webkit-text-stroke: .1px green;
+}

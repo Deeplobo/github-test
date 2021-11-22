@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.glassbox {
+  bottom: -66px;
+  height: 500px;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.glassbox .maincircle {
+  height: 400px;
+  width: 400px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(50%, #fff), color-stop(50%, #000), to(#000));
+  background-image: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000);
+  border-radius: 50%;
+  border: transparent;
+  outline: none;
+  -webkit-box-shadow: 0 0 20px 15px rgba(255, 255, 255, 0.5), 0 0 30px 30px rgba(255, 255, 255, 0.4), 0 0 50px 40px rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 20px 15px rgba(255, 255, 255, 0.5), 0 0 30px 30px rgba(255, 255, 255, 0.4), 0 0 50px 40px rgba(255, 255, 255, 0.3);
+  -webkit-animation: maincircle 60s linear infinite;
+          animation: maincircle 60s linear infinite;
+}
+
+@-webkit-keyframes maincircle {
+  from {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes maincircle {
+  from {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.glassbox .maincircle .yinyang {
+  position: relative;
+  top: 0px;
+  left: 95px;
+  height: 200px;
+  width: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(50%, #fff), color-stop(50%, #000), to(#000));
+  background-image: linear-gradient(90deg, #fff, #fff 50%, #000 50%, #000);
+  border-radius: 50%;
+  -webkit-animation: yin-yang 30s linear infinite;
+          animation: yin-yang 30s linear infinite;
+}
+
+.glassbox .maincircle .yinyang::after {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #000;
+  border-radius: 50%;
+  border: 37.5px solid #fff;
+  position: relative;
+  right: 50px;
+  top: 100px;
+}
+
+.glassbox .maincircle .yinyang::before {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 37.5px solid #000;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+@-webkit-keyframes yin-yang {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes yin-yang {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+/*# sourceMappingURL=yin_yang.css.map */
