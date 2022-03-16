@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'greycliff_cfbold';
+    src: url('../fonts/fontspring-demo-greycliffcf-bold-webfont.woff2') format('woff2'), url('../fonts/fontspring-demo-greycliffcf-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sushama-cover {
+    background-image: url(../images/sushama/SushamaCover-01.png )!important;
+}
+
+.sushama-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sushama-logo h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'greycliff_cfbold';
+    color: #606060;
+}
+
+.sushama-logo h5 {
+    font-size: 1.1rem;
+    color: white;
+    margin: 0;
+    font-family: 'greycliff_cfbold';
+}
+
+#header-2 .wsmainfull.cloned .sushama-logo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-2 .wsmainfull.cloned .sushama-logo2 h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'greycliff_cfbold';
+    color: #606060;
+}
+
+.wsmobileheader .sushama-logo-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wsmobileheader .sushama-logo-mobile h6 {
+    margin: 0;
+    font-family: 'greycliff_cfbold';
+    color: #606060;
+}
+
+.margin--top {
+    margin-top: 150px;
+}
+
+.margin--right {
+    margin-right: 40px;
+}
+
+.margin--bottom {
+    margin-bottom: 20px;
+}
+
+.pstn--abst {
+    position: absolute;
+    top: -10px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.pad-top-10 {
+    padding: 10px 0 0 0 !important;
+}
+
+.pad-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.pad-tb-50 {
+    padding: 30px 20px 75px 20px !important;
+}
+
+.linhight--rem {
+    line-height: 1.9rem;
+}
+
+.txt-blue {
+    color: #00a3c8 !important;
+}
+
+.txt-aln {
+    text-align: center;
+}
+
+.play-btn {
+    display: flex!important;
+    align-items: flex-end;
+}
